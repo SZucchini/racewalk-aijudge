@@ -8,9 +8,8 @@ camera]().
 We can detect faults in race walking automatically using the code and [mmpose](https://github.com/open-mmlab/mmpose). The accuracy of our detection models is over 90%. You can try to train and validate models using raw video data or processed data.
 
 This repository includes:
-- the script for creating training and validation data for the judgment model (Logistic regression).
-- two notebooks for evaluating the fault judgment models.
-- some data (keypoints estimated by pose estimator and model input).
+- a script for creating training and validation data for the faults judgment model.
+- two notebooks for evaluating the faults judgment models.
 
 This repository **does not include**:
 - [mmpose](https://github.com/open-mmlab/mmpose) project. (We used the [higherHRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) through mmpose to estimate keypoints from videos.)
@@ -23,6 +22,14 @@ Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 ## Environment
 - We used the Anaconda environment.
 - Please check `env.yaml` and `env.frozen.yaml`.
+
+## Evaluation from scratch
+### Step 0: Download the required data
+
+Please download data that you need from [Google Drive](https://drive.google.com/drive/folders/1BbYuti87mX995lcWFvLyYF_edIehQjNB?usp=sharing).
+- **`interim`**: You can download keypoint data (`keypoints`) and faults annotation result (`judge_result.csv`).
+- `raw/video`: There are raw videos we captured. If you want to get keypoints from videos by yourself, please use them.
+- `external/mmpose_materials`: You can download fine-tuned model weights (`model`) and images for fine-tuning HigherHRNet (`dataset/annotations/img`) if you need.
 
 ## Judgment model evaluation
 ### Step1: Make the input data for the judgment model (You can skip this step).
