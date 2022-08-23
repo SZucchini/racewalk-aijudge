@@ -1,9 +1,9 @@
 # Coming soon...
 
-## Abstract
+## Introduction
 
-This repository can detect faults in race walking from a smartphone camera video.
-Please check this [Paper]() for more information.
+This is the official code of [Automatic detection of faults in race walking from a smartphone
+camera]().
 
 This repository includes:
 - the script for creating training and validation data for the judgment model (Logistic regression).
