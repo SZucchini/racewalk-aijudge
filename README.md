@@ -1,4 +1,4 @@
-# Coming soon...
+# Automatic detection of faults in race walking from a smartphone camera: a comparison of an Olympic medalist and university athletes
 
 ## Introduction
 
