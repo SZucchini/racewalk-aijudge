@@ -24,20 +24,27 @@ Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 - Please check `env.yaml` and `env.frozen.yaml`.
 
 ## Evaluation from scratch
-### Step 0: Download the required data
+### Step 0: Downloading the required data
 
 Please download data that you need from [Google Drive](https://drive.google.com/drive/folders/1BbYuti87mX995lcWFvLyYF_edIehQjNB?usp=sharing).
-- **`processed`**: You can download input data for fualt detection models. If you use these data, you can skip Step ? ~ ?.
-- **`interim`**: You can download keypoint data (`keypoints`) and faults annotation result (`judge_result.csv`). If you use these data, you can skip Step ? ~ ?.
+- **`processed`**: You can download input data for fault detection models. If you use these data, you can skip to Step 3.
+- **`interim`**: You can download keypoint data (`keypoints`) and faults annotation result (`judge_result.csv`). If you use these data, you can skip to Step 2.
 - `raw/video`: There are raw videos we captured. If you want to get keypoints from videos by yourself, please use them.
 - `external/mmpose_materials`: You can download fine-tuned model weights (`model`) and images for fine-tuning HigherHRNet (`dataset/annotations/img`) if you need.
 
-## Judgment model evaluation
-### Step1: Make the input data for the judgment model (You can skip this step).
-- `cd scripts`
-- `python make_input.py`
-- Then the model input data is output to `./data/processed/hrf/*.csv`.
+### Step 1: Estimating keypoints from walking videos
 
-### Step2: Evaluation of the judgment model and visualization of the judgment grounds.
-- Please open the notebook `./notebooks/*.ipynb`
-- Run all cells and check the result.
+Please check and use [mmpose](https://github.com/open-mmlab/mmpose) to estimate keypoints. You can use our custom scripts  and data for mmpose in [mmpose_materials](https://github.com/SZucchini/racewalk-aijudge/tree/main/data/external/mmpose_materials).
+
+### Step 2: Making model input data
+
+1. Please put `judge_result.csv` into `./data/interim` and keypoints data into `./data/interim/keypoints/`.
+1. `cd scripts`
+1. `python make_input.py`
+1. Then, input data is output to `./data/processed`.
+
+### Step 3: Evaluation of the models and visualization of the detection grounds
+
+1. Please put `*_input_data.csv` into `./data/processed` if you start from this step.
+1. Please open the notebook `./notebooks/*.ipynb`.
+1. Run all cells and check the results.
