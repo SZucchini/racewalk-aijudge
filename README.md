@@ -1,15 +1,16 @@
 # Coming soon...
 
 ## Abstract
-This project allows for the verification of non-contact fault judgment in race walking.
-See [Documents](https://drive.google.com/drive/folders/1maZTWzhs-6zKQgCuP18GBr1YHXQJZKtT?usp=sharing) for more information on non-contact fault judgment.
 
-This project includes:
+This repository can detect faults in race walking from a smartphone camera video.
+Please check this [Paper]() for more information.
+
+This repository includes:
 - the script for creating training and validation data for the judgment model (Logistic regression).
 - two notebooks for evaluating the fault judgment models.
 - some data (keypoints estimated by pose estimator and model input).
 
-This project **does not include**:
+This repository **does not include**:
 - [mmpose](https://github.com/open-mmlab/mmpose) project (We used the [higherHRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) by mmpose to estimate keypoints from videos.).
 - You can download our custom materials for the mmpose from [here](https://drive.google.com/drive/folders/1zTtPlkrcJdDwPtaGnINEeIa5FW43nMaV?usp=sharing).
 
