@@ -1,4 +1,4 @@
-# Race Walk Judge
+# Now Loading...
 
 ## Abstract
 This project allows for the verification of non-contact fault judgment in race walking.
