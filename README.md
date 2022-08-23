@@ -48,3 +48,5 @@ Please check and use [mmpose](https://github.com/open-mmlab/mmpose) to estimate 
 1. Please put `*_input_data.csv` into `./data/processed` if you start from this step.
 1. Please open the notebook `./notebooks/*.ipynb`.
 1. Run all cells and check the results.
+
+## Citation
