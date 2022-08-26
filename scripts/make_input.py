@@ -137,7 +137,7 @@ def load_kpt(kpt_path, sd, judge_data):
         data = del_outlier(angle, data, sd)
         angle = culc_angle(data[:, 11:13, :], data[:, 13:15, :], data[:, 15:17, :])
         output = np.concatenate((data, angle[:, np.newaxis, :]), axis=1)
-        key = f.split('/')[5].split('kpt_')[1].split('.npy')[0]
+        key = f.split('/')[4].split('kpt_')[1].split('.npy')[0]
         if key in fault.keys():
             key = key.split('.')[0] + '_' + walker[key] + '_' + fault[key]
             data_dict[key] = output
