@@ -1,9 +1,9 @@
-# Automatic detection of faults in race walking from a smartphone camera: a comparison of an Olympic medalist and university athletes
+# [Automatic detection of faults in race walking from a smartphone camera: a comparison of an Olympic medalist and university athletes](https://arxiv.org/abs/2208.12646)
 
 ## Introduction
 
 This is the official code of [Automatic detection of faults in race walking from a smartphone
-camera]().
+camera](https://arxiv.org/abs/2208.12646).
 
 We can detect faults in race walking automatically using the code and [mmpose](https://github.com/open-mmlab/mmpose). The accuracy of our detection models is over 90%. You can try to train and validate models using raw video data or processed data.
 
