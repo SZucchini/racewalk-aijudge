@@ -7,7 +7,7 @@ Tomohiro Suzuki, Kazuya Takeda, Keisuke Fujii, Automatic Fault Detection in Race
 This is the official code of [Automatic detection of faults in race walking from a smartphone
 camera](https://arxiv.org/abs/2208.12646).
 
-We can detect faults in race walking automatically using the code and [mmpose](https://github.com/open-mmlab/mmpose). The accuracy of our detection models is over 90%. You can try to train and validate models using raw video data or processed data.
+We can detect faults in race walking automatically from video using the code and [mmpose](https://github.com/open-mmlab/mmpose). The accuracy of our detection models is over 90%. You can try to train and validate models using raw video data or processed data.
 
 This repository includes:
 - a script for creating training and validation data for the faults judgment model.
@@ -17,6 +17,10 @@ This repository **does not include**:
 - [mmpose](https://github.com/open-mmlab/mmpose) project. (We used the [higherHRNet](https://github.com/HRNet/HigherHRNet-Human-Pose-Estimation) through mmpose to estimate keypoints from videos.)
 
 If you have any questions or errors, please contact to the author.
+
+## Sample Video
+
+https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4
 
 ## Author
 Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
