@@ -20,7 +20,7 @@ If you have any questions or errors, please contact to the author.
 
 ## Sample Video
 
-https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4
+![demo](https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4)
 
 ## Author
 Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
