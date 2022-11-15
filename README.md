@@ -1,4 +1,4 @@
-# [Automatic detection of faults in race walking from a smartphone camera: a comparison of an Olympic medalist and university athletes](https://arxiv.org/abs/2208.12646)
+# [Automatic detection of faults in race walking from a smartphone camera](https://arxiv.org/abs/2208.12646)
 
 Tomohiro Suzuki, Kazuya Takeda, Keisuke Fujii, Automatic Fault Detection in Race Walking From a Smartphone Camera via Fine-Tuning Pose Estimation, IEEE 11th Global Conference on Consumer Electronics (GCCE 2022), 2022.10.20. (Gold Prize in IEEE GCCE 2022 Excellent Student Paper Awards) [\[Full(arXiv)\]](https://arxiv.org/abs/2208.12646) [\[code\]](https://github.com/SZucchini/racewalk-aijudge/tree/main/notebooks)
 
