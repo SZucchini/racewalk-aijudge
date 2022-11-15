@@ -22,6 +22,10 @@ If you have any questions or errors, please contact to the author.
 
 ![demo](https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4)
 
+<video muted autoplay loop>
+   <source src="https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4" type="video/mp4" width="320" height="240">
+</video>
+
 ## Author
 Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 
