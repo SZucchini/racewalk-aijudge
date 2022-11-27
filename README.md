@@ -35,7 +35,7 @@ Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 Please download data that you need from [Google Drive](https://drive.google.com/drive/folders/1BbYuti87mX995lcWFvLyYF_edIehQjNB?usp=sharing).
 - **`processed`**: You can download input data for fault detection models. If you use these data, you can skip to Step 3.
 - **`interim`**: You can download keypoint data (`keypoints`) and faults annotation result (`judge_result.csv`). If you use these data, you can skip to Step 2.
-- `raw/video`: There are raw videos we captured. If you want to get keypoints from videos by yourself, please use them.
+- `raw/video`: There are raw videos we captured. If you want to get keypoints from videos by yourself, please use them. (Waiting for permission now)
 - `external/mmpose_materials`: You can download fine-tuned model weights (`model`) and images for fine-tuning HigherHRNet (`dataset/annotations/img`) if you need.
 
 ### Step 1: Estimating keypoints from walking videos
