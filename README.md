@@ -28,7 +28,7 @@ Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 ## Environment
 - We used the Anaconda environment.
 - Please check `env.yaml` and `env.frozen.yaml`.
-- `conda env create --file env.frozen.yaml`
+- `$ conda env create --file env.frozen.yaml`
 
 ## Evaluation from scratch
 ### Step 0: Downloading the required data
