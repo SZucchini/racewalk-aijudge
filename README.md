@@ -23,7 +23,7 @@ If you have any questions or errors, please contact to the author.
 ![sample](https://user-images.githubusercontent.com/78769319/201851811-6267d759-171c-42bd-b3f4-67bf0272c757.jpg)
 
 ## Author
-Tomohiro Suzuki - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
+Tomohiro Suzuki ([Takeda, Fujii Laboratory](https://takedalab.g.sp.m.is.nagoya-u.ac.jp/groups/sports-behavior-group), Nagoya University) - suzuki.tomohiro@g.sp.m.is.nagoya-u.ac.jp
 
 ## Environment
 - We used the Anaconda environment.
