@@ -59,3 +59,23 @@ Please check and use [mmpose](https://github.com/open-mmlab/mmpose) to estimate 
 ## Sample Video (can be played with Safari)
 
 ![demo](https://user-images.githubusercontent.com/78769319/201831462-99f21272-3fdf-4105-b868-982619f30d1f.mp4)
+
+## Citation
+If you find our work useful for your project, please consider citing these papers:
+```
+@article{suzuki2022automatic,
+  title={Automatic detection of faults in race walking from a smartphone camera: a comparison of an Olympic medalist and university athletes},
+  author={Suzuki, Tomohiro and Takeda, Kazuya and Fujii, Keisuke},
+  journal={arXiv preprint arXiv:2208.12646},
+  year={2022}
+}
+
+@inproceedings{suzuki2022automatic,
+  title={Automatic fault detection in race walking from a smartphone camera via fine-tuning pose estimation},
+  author={Suzuki, Tomohiro and Takeda, Kazuya and Fujii, Keisuke},
+  booktitle={2022 IEEE 11th Global Conference on Consumer Electronics (GCCE)},
+  pages={631--632},
+  year={2022},
+  organization={IEEE}
+}
+```
