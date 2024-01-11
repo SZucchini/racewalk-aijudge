@@ -70,7 +70,7 @@ If you find our work useful for your project, please consider citing these paper
   year={2022}
 }
 
-@inproceedings{suzuki2022gcce,
+@inproceedings{suzuki2022automatic,
   title={Automatic fault detection in race walking from a smartphone camera via fine-tuning pose estimation},
   author={Suzuki, Tomohiro and Takeda, Kazuya and Fujii, Keisuke},
   booktitle={2022 IEEE 11th Global Conference on Consumer Electronics (GCCE)},
